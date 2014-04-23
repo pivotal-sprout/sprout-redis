@@ -14,7 +14,5 @@ describe 'sprout-redis' do
     expect {
       TCPSocket.open('localhost', 6379).close
     }.not_to raise_error
-
-    expect(system('psql -c "select 1" &> /dev/null')).to be_true
   end
 end
