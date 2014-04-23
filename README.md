@@ -20,16 +20,11 @@ bundle exec soloist
 
 ## Cookbook Usage
 
-### Attributes
-
-*NOTE:* All preferences are namespaced under `sprout => redis` they include:
-
-* `path` &mdash; The path to the file that redis touches; default is `~/redis`
-
 ### Recipes
 
 1. `sprout-redis`
-1. `sprout-redis::path`
+1. `sprout-redis::install`
+1. `sprout-redis::launch_agent`
 
 ## Contributing
 
