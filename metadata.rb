@@ -1,6 +1,6 @@
 name             'sprout-redis'
 maintainer       'Pivotal'
-maintainer_email 'sprout-maintainers@pivotallabs.com'
+maintainer_email 'sprout-maintainers@googlegroups.com'
 license          'MIT'
 description      'Cookbok for managing redis on an OS X workstation'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
